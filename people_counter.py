@@ -8,6 +8,9 @@
 # python people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt \
 #	--model mobilenet_ssd/MobileNetSSD_deploy.caffemodel \
 #	--output output/webcam_output.avi
+#
+# Note: If you want to test with your wireless camera or smartphone as wireless camera then you can directly put link given by application
+# 	and in --input videos/ also, you have to put /video at the end of link if you are using smartphone as wireless device.
 
 # import the necessary packages
 from pyimagesearch.centroidtracker import CentroidTracker
